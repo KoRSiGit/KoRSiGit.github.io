@@ -1,124 +1,33 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
-	<meta charset="UTF-8">
 	<title>Интерактивный образовательный ресурс "История России. Река времени"</title>
-	<script type="text/javascript" src="swfobject.js"></script>
-	<script type="text/javascript">
-			< !--Adobe recommends that developers use SWFObject2 for Flash Player detection. -- >
-			< !--For more information see the SWFObject page at Google code(http://code.google.com/p/swfobject/). -->
-			< !--Information is also available on the Adobe Developer Connection Under Detecting Flash Player versions and embedding SWF files with SWFObject 2" -->
-			< !--Set to minimum required Flash Player version or 0 for no version detection-- >
-			var swfVersionStr = "17.0.0";
-			< !--xiSwfUrlStr can be used to define an express installer SWF. -- >
-			var xiSwfUrlStr = "";
-		var flashvars = {};
-		var params = {};
-		params.quality = "high";
-		params.bgcolor = "#ffffff";
-		params.play = "true";
-		params.loop = "true";
-		params.wmode = "gpu";
-		params.scale = "showall";
-		params.menu = "true";
-		params.devicefont = "false";
-		params.salign = "";
-		params.allowscriptaccess = "sameDomain";
-		params.allowFullScreen = "true";
-		var attributes = {};
-		attributes.id = "HistoryFlashes";
-		attributes.name = "HistoryFlashes";
-		attributes.align = "middle";
-		swfobject.createCSS("html", "height:100%; background-color: #ffffff;");
-		swfobject.createCSS("body", "margin:0; padding:0; overflow:hidden; height:100%;");
-		swfobject.embedSWF(
-			"HistoryFlashes.swf", "flashContent",
-			"100%%", "100%%",
-			swfVersionStr, xiSwfUrlStr,
-			flashvars, params, attributes);
-	</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
 </head>
 
 <body>
-	<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
-	<div id="flashContent">
-		<a href="http://www.adobe.com/go/getflash">
-			<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-		</a>
-		<p>This page requires Flash Player version 17.0.0 or higher.</p>
-	</div>
-</body>
-
-</html>
-
-
-<!DOCTYPE html>
-<html>
-
-<head>
-	<meta charSet="utf-8" class="next-head" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" class="next-head" />
-	<link rel="stylesheet" href="/static/styles/combined.css" class="next-head" />
-	<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" class="next-head"></script>
-	<script class="next-head">
-		(adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: "ca-pub-3672254139137515",
-			enable_page_level_ads: true
-		});
-	</script>
-	<title class="next-head">Интерактивный образовательный ресурс "История России. Река времени"</title>
-	<link rel="preload" href="/_next/6ed204d8-1ecc-43ed-a240-f0a40f320ee2/page/preserve-embed-flash-content-with-javascript.js"
-	 as="script" />
-	<link rel="preload" href="/_next/6ed204d8-1ecc-43ed-a240-f0a40f320ee2/page/_error.js" as="script" />
-	<link rel="preload" href="/_next/5d408bd7384d75beef8c9c52bdca677b/app.js" as="script" />
-</head>
-
-<body>
-	<div>
-		<div id="__next">
-			<div data-reactroot="">
-				<div>
-					<main>
-						<h1>Preserve and embed Flash content without the Plugin, with JavaScript</h1>
-						<img src="/static/images/shumway.png" id="shumway"
-						 alt="Shumway thingamajigs" />
-
-						<p>Here is an example of an interactive Flash presentation running with Shumway in the browser:</p>
-						<iframe src="HistoryFlashes.swf"
-						 id="whatislove"></iframe>
-						<p>Great cultural heritage, just like
-							<a href="http://industrialpainter.com">Industrial Painter</a> or
-							<a href="https://janit.iki.fi/shit/megacar/">the Megacar</a>. We don&#x27;t have to lose all of this.</p>
-						<p>-- Jani Tarvainen, 2017/08/04</p>
-					</main>
-					<nav class="footer">
-						<a href="/">Index</a>
-					</nav>
-				</div>
-			</div>
+	<a href="/en-US/" id="tabzilla">mozilla</a>
+	<a href="http://github.com/mozilla/shumway">
+		<img style="position: absolute; top: 0; left: 0; border: 0;" src="//s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"
+		 alt="Fork me on GitHub" />
+	</a>
+	<div id="container">
+		<div id="flashContent">
+			<iframe src="iframe/viewer.html?swf=../HistoryFlashes.swf" width="800" height="512" frameborder="0"></iframe>
 		</div>
-		<div id="__next-error"></div>
-	</div>
-	<div>
-		<script>
-			__NEXT_DATA__ = { "props": {}, "pathname": "/preserve-embed-flash-content-with-javascript", "query": {}, "buildId": "6ed204d8-1ecc-43ed-a240-f0a40f320ee2", "buildStats": { "app.js": { "hash": "5d408bd7384d75beef8c9c52bdca677b" } }, "assetPrefix": "", "nextExport": false, "err": null, "chunks": [] }
-			module = {}
-			__NEXT_LOADED_PAGES__ = []
-			__NEXT_LOADED_CHUNKS__ = []
-
-			__NEXT_REGISTER_PAGE = function (route, fn) {
-				__NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
-			}
-
-			__NEXT_REGISTER_CHUNK = function (chunkName, fn) {
-				__NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
-			}
-		</script>
-		<script async="" id="__NEXT_PAGE__/preserve-embed-flash-content-with-javascript" type="text/javascript" src="/_next/6ed204d8-1ecc-43ed-a240-f0a40f320ee2/page/preserve-embed-flash-content-with-javascript.js"></script>
-		<script async="" id="__NEXT_PAGE__/_error" type="text/javascript" src="/_next/6ed204d8-1ecc-43ed-a240-f0a40f320ee2/page/_error.js"></script>
-		<div></div>
-		<script type="text/javascript" src="/_next/5d408bd7384d75beef8c9c52bdca677b/app.js" async=""></script>
+		<div>
+			<div class="description">
+				Shumway is an HTML5 technology experiment that explores building a faithful and efficient renderer for the SWF file format
+				without native code assistance.
+			</div>
+			<h2>Try it out!</h2>
+		</div>
+		<script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
 	</div>
 </body>
 
