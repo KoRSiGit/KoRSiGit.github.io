@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Интерактивный образовательный ресурс "История России. Река времени"</title>
+    <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script> 
+    <script>
+    var flashVars = {};
+    var params = {};
+        params.allowScriptAccess = "always";
+        params.allowFullScreen = false;
+        params.bgcolor = "#1a1a1a";
+        params.wmode = "opaque";
+
+        var atts = {};
+        atts.id = "my-swf";
+
+    swfobject.embedSWF("HistoryFlashes.swf", "my-swfobject", "100%", "100%", "10.1.0", "playerProductInstall.swf", flashVars, params, atts);
+    </script>
+</head>
+<body>
+    <div id="my-swfobject">
+        <!-- Any <object></object>, <embed></embed>, and everything else here will be rendered for users without JavaScript. If JavaScript is on, SWFObject will destroy div#my-swfobject and replace it with object#my-swf. -->
+    </div>
+</body>
+</html>
+
