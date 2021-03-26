@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b777084c-f5ff-4d4c-be99-758989bfeabc" name="Default Changelist" comment="Delete">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/KoRSiGit.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/app.e70700e8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/cyan.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/colors/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialdesignicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pe-icon-7-stroke.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/simpletextrotator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/materialdesignicons-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/materialdesignicons-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/materialdesignicons-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/materialdesignicons-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/materialdesignicons-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-home.3fcda4e8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/growth-analytics.5907b9c3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home-dashboard.34efc83d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-1.6c1a1f5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-1.8b073cf7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-1.ee03e89c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-2.6d22fc42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-2.7a6ccfb2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-2.d0b8f706.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-3.0e5da18b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-3.79c7e869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-4.fc91da85.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.36d9d158.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.36d9d158.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.5c09cbf4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.5c09cbf4.js.map" beforeDir="false" />
-    </list>
+    <list default="true" id="b777084c-f5ff-4d4c-be99-758989bfeabc" name="Default Changelist" comment="Delete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +45,7 @@
       <workItem from="1615923966921" duration="1529000" />
       <workItem from="1615966669265" duration="3568000" />
       <workItem from="1616055592836" duration="1782000" />
-      <workItem from="1616749023949" duration="970000" />
+      <workItem from="1616749023949" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="Delete">
       <created>1615924037276</created>
@@ -115,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615924261116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Delete">
+      <created>1616750112521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616750112521</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Delete">
+      <created>1616750487922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616750487922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
